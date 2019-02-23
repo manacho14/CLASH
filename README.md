@@ -19,6 +19,8 @@ To reproduce our results you have to install following python3 packages:
 
 ## Reproducing results
 
+* **Important**: This section provide all you need to reproduce our results from scratch. If you want to use our model to predict morphologies in your own data, please go to next section.
+
 We trained a baseline model on CANDELS images and transfered it to CLASH images. In order to reproduce our results, first step is download CANDELS/CLASH data. You must have images and labels for each survey.
 
 ### CANDELS data:
