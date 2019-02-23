@@ -1,0 +1,20 @@
+{
+    "learning_rate": 5e-5,
+    "num_classes": 5,
+
+    "batch_size": 32,
+
+    "num_epochs": 1000,
+
+    "early_stopping": 50,
+
+    "image_size": 80,
+
+    "val_size": 1135,
+    "test_size": 1135,
+
+    "batch_size_train": 128,
+
+
+
+}
