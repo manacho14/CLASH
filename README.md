@@ -19,13 +19,19 @@ What things you need to reproduce our results are following python3 packages
 
 ## Reproducing results
 
-
+In order to reproduce our results, first step is download CANDELS/CLASH data 
 
 ### CANDELS data:
 
+[Kartaltepe et al. 2015](https://arxiv.org/pdf/1401.2455.pdf)
 
 ### CLASH data:
 
+[Molino et al. 2017](https://arxiv.org/pdf/1705.02265.pdf)
+
+## Testing results
+
+In order to test 
 
 ```
 Give an example
@@ -34,7 +40,7 @@ Give an example
 
 ## Contributing
 
-If you have a question do not hesitate to contact us at following [email](maperezc@udec.cl)
+If you have a question do not hesitate to contact us at following [email](maperezc@udec.cl).
 
 ## Authors
 
