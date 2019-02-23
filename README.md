@@ -47,7 +47,7 @@ You can download the catalog presented in our paper [here](https://github.com/mp
 
 ## Contributing
 
-If you have a question do not hesitate to contact us at following [email](maperezc@udec.cl).
+If you have a question do not hesitate to contact us at maperezc@udec.cl.
 
 ## Authors
 
