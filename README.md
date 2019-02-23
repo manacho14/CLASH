@@ -1,6 +1,6 @@
 # Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS
 
-This repository was made to reproduce results of our paper titled [Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS](https://arxiv.org/abs/1810.07857) (currently accepted to Publications of the Astronomical Society of the Pacific (PASP))
+This repository was made to reproduce results of our paper titled [Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS](https://arxiv.org/abs/1810.07857) (currently accepted to Publications of the Astronomical Society of the Pacific)
 
 
 ### Prerequisites
