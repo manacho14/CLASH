@@ -1,11 +1,11 @@
 # Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS
 
-This repository was made to reproduce results of our paper titled "Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS"
+This repository was made to reproduce results of our paper titled [Multiband galaxy morphologies for CLASH: a convolutional neural network transferred from CANDELS](https://arxiv.org/abs/1810.07857) (currently accepted to Publications of the Astronomical Society of the Pacific (PASP))
 
 
 ### Prerequisites
 
-What things you need to reproduce our results are following python3 packages
+To reproduce our results you have to install following python3 packages:
 
 ```
 - numpy
@@ -30,16 +30,20 @@ We created postage-stamp images from the GOODS-S mosaic setting the size to four
 
 ### CLASH data:
 
-For the transfer learning we used images from the CLASH Multi-Cycle Treasury program [Postman et al. 2012](https://arxiv.org/pdf/1106.3328.pdf). CLASH observed 25 clusters of galaxies in up to 16 filters, namely F225W, F275W, F336W, F390W, F435W, F475W, F606W, F625W, F775W, F814W, F850W, F105W, F110W, F125W F140W and F160W, covering the ultra violet (UV), optical (OPT) and NIR regions of the spectrum. [Molino et al. 2017](https://arxiv.org/pdf/1705.02265.pdf) published accurate multiwavelength photometric catalogs for these clusters which also provide the Petrosian radius. With this data we created postage-stamp using mosaics from [MAST](https://archive.stsci.edu/prepds/clash/) for each filter separately following the same criterion for the magnitude cut and the size that we adopted for CANDELS ending up with a sample of 68, 531 galaxies.
+For the transfer learning we used images from the CLASH Multi-Cycle Treasury program [Postman et al. 2012](https://arxiv.org/pdf/1106.3328.pdf). CLASH observed 25 clusters of galaxies in up to 16 filters, namely F225W, F275W, F336W, F390W, F435W, F475W, F606W, F625W, F775W, F814W, F850W, F105W, F110W, F125W F140W and F160W, covering the ultra violet (UV), optical (OPT) and near-infrared (NIR) regions of the spectrum. [Molino et al. 2017](https://arxiv.org/pdf/1705.02265.pdf) published accurate multiwavelength photometric catalogs for these clusters which also provide the Petrosian radius. With this data we created postage-stamp using mosaics from [MAST](https://archive.stsci.edu/prepds/clash/) for each filter separately following the same criterion for the magnitude cut and the size that we adopted for CANDELS ending up with a sample of 68, 531 galaxies.
 
-## Testing results
+### Training the algorithm
 
-In order to test 
+Once you have CANDELS/CLASH images, you must put stamps in following path './CANDELS/stamps/' or './CLASH/stamps/' and excecute train.py -dataset-, where -dataset- represent either CANDELS or CLASH. If you want to train only using CLASH data, you have to download [CANDELS weights](http://empty) in order to initialize the model.
 
-```
-Give an example
-```
+## Testing
 
+If you want to test the model using your own CLASH images without training a new model, you must initialize the algorithm using parameters presented in our paper, downloading them [here](http://empty).
+Once parameters are downloaded, you can follow example presented in [Predict_example.ipynb](https://github.com/mperezcarrasco/CLASH/blob/master/Predict_example.ipynb)
+
+## The Catalog
+
+You can download the catalog presented in our paper [here](https://github.com/mperezcarrasco/CLASH/blob/master/Deep-CLASH.csv)
 
 ## Contributing
 
