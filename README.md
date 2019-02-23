@@ -39,11 +39,11 @@ Once you have CANDELS/CLASH images, you must put stamps in following path './CAN
 ## Testing
 
 If you want to test the model using your own CLASH images without training a new model, you must initialize the algorithm using parameters presented in our paper, downloading them [here](http://empty).
-Once parameters are downloaded, you can follow example presented in [Predict_example.ipynb](https://github.com/mperezcarrasco/CLASH/blob/master/Predict_example.ipynb)
+Once parameters are downloaded, you have to place your CLASH images in './galaxies_to_predict/' and follow example provided in [Predict_example.ipynb](https://github.com/mperezcarrasco/CLASH/blob/master/Predict_example.ipynb)
 
 ## The Catalog
 
-You can download the catalog presented in our paper [here](https://github.com/mperezcarrasco/CLASH/blob/master/Deep-CLASH.csv)
+You can download the catalog presented in our paper [here](https://github.com/mperezcarrasco/CLASH/blob/master/Deep-CLASH.csv).
 
 ## Contributing
 
