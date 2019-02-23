@@ -17,9 +17,14 @@ What things you need to reproduce our results are following python3 packages
 ```
 
 
-## Running the tests
+## Reproducing results
 
-Explain how to run the automated tests for this system
+
+
+### CANDELS data:
+
+
+### CLASH data:
 
 
 ```
@@ -29,10 +34,15 @@ Give an example
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. 
+If you have a question do not hesitate to contact us at following [email](maperezc@udec.cl)
 
 ## Authors
 
-* **Manuel Pérez Carrasco** - *Msc. student, Computer Science department, University of Concepción* - [Github](https://github.com/mperezcarrasco/)
-* **Guillermo Cabrera Vives** - *Associated professor, Computer Science department, University of Concepción* 
-* **Monserrat Martinez Marín** - *Msc. student, Astronomy department, University of Concepción*
+* **Manuel Pérez Carrasco** - *Msc. student, department of Computer Science, University of Concepción* - [Github](https://github.com/mperezcarrasco/)
+* **Guillermo Cabrera Vives** - *Associated professor, department of Computer Science, University of Concepción* 
+* **Monserrat Martinez Marín** - *Msc. student, department of Astronomy, University of Concepción*
+* **Pierluigi Cerulo** - *Postdoctoral fellow, department of Astronomy, University of Concepción*
+* **Ricardo Demarco** - *Associated professor, department of Astronomy, University of Concepción*
+* **Pavlos Protopapas** - *Scientific director, Institute for applied computational sciences, Harvard University*
+* **Julio Godoy** - *Associated professor, department of Computer Science, University of Concepción*
+* **Marc Huertas-Company** - *Assistant professor, department of Astronomy, University Paris Diderot*
