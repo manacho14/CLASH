@@ -34,11 +34,11 @@ For the transfer learning, we used images from the CLASH Multi-Cycle Treasury pr
 
 ### Training the algorithm
 
-Once you have CANDELS/CLASH images, you must put stamps in following path './CANDELS/stamps/' or './CLASH/stamps/' and excecute train.py -dataset-, where -dataset- represent either CANDELS or CLASH. If you want to train only using CLASH data, you have to download [CANDELS weights](http://empty) in order to initialize the model.
+Once you have CANDELS/CLASH images, you must put stamps in following path './CANDELS/stamps/' or './CLASH/stamps/' and excecute train.py -dataset-, where -dataset- represent either CANDELS or CLASH. If you want to train only using CLASH data, you have to download [CANDELS weights](http://www.inf.udec.cl/~guille/papers/DeepCLASH/best_model_CANDELS.hdf5) in order to initialize the model.
 
 ## Testing
 
-If you want to test the model using your own CLASH images without training a new model, you must initialize the algorithm using parameters presented in our paper, downloading them [here](http://www.inf.udec.cl/~guille/papers/DeepCLASH/best_model_CANDELS.hdf5).
+If you want to test the model using your own CLASH images without training a new model, you must initialize the algorithm using parameters presented in our paper, downloading them [here](https://drive.google.com/open?id=1k3CXweAlEby3karAphDp3TpKhdjGuCbA).
 Once parameters are downloaded, you have to place your CLASH images in './galaxies_to_predict/' and follow example provided in [Predict_example.ipynb](https://github.com/mperezcarrasco/CLASH/blob/master/Predict_example.ipynb)
 
 ## The Catalog
