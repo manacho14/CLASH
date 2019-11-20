@@ -14,7 +14,7 @@ To reproduce our results you have to install following python3 packages:
 - keras
 - scipy
 - astropy
-- Theano
+- theano
 ```
 
 
