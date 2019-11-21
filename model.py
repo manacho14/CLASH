@@ -7,6 +7,8 @@ from keras.layers import Dense, Dropout, Flatten, Activation, Input
 
 
 
+
+
 def inceptionv2(image_size=80):
     inp=Input(shape=(1,image_size,image_size))
     x = Conv2D(64, (7,7), activation='relu')(inp)
