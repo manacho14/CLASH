@@ -8,13 +8,13 @@ This repository was made to reproduce results of our paper [Multiband galaxy mor
 To reproduce our results you have to install following python3 packages:
 
 ```
-- numpy
-- pandas
-- matplotlib
-- keras
-- scipy
-- astropy
-- theano
+- numpy==1.15.2
+- pandas==0.23.4
+- matplotlib==2.2.3
+- Keras==2.2.2
+- scipy==1.1.0
+- astropy==2.0.8
+- Theano==1.0.4
 ```
 
 
